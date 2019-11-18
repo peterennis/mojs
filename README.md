@@ -1,4 +1,4 @@
-# mo · js – [![npm](https://img.shields.io/npm/v/mo-js.svg)](https://www.npmjs.com/package/mo-js) [![Build Status](https://travis-ci.org/mojs/mojs.svg?branch=master)](https://travis-ci.org/mojs/mojs) [![Coverage Status](https://coveralls.io/repos/legomushroom/mojs/badge.svg?branch=master)](https://coveralls.io/r/legomushroom/mojs?branch=master) [![Slack Workspace](https://img.shields.io/badge/style-join-ff69b4.svg?label=slack%20workspace)](https://mojs.slack.com)
+# mo · js – [![npm](https://img.shields.io/npm/v/@mojs/core.svg)](https://www.npmjs.com/package/@mojs/core) [![Build Status](https://travis-ci.org/mojs/mojs.svg?branch=master)](https://travis-ci.org/mojs/mojs) [![Coverage Status](https://coveralls.io/repos/legomushroom/mojs/badge.svg?branch=master)](https://coveralls.io/r/legomushroom/mojs?branch=master) [![Slack Workspace](https://img.shields.io/badge/style-join-ff69b4.svg?label=slack%20workspace)](https://mojs.slack.com)
 
 The motion graphics toolbelt for the web.
 
@@ -31,9 +31,9 @@ The library provides **built-in components** to start animating from scratch lik
 - [Simple Ripple](https://codepen.io/sol0mka/full/XKdWJg/) (click to see)
 
 ## Tutorials
-- Shape & Swirl (broken link) [API/shape](/api/shape.md)
-- Burst (broken link) [API/burst](/api/burst.md)
-- Path Easing (broken link) [API/easing/path-easing](/api/easing/path-easing.md)
+- [Shape & Swirl](https://mojs.github.io/tutorials/shape-swirl/)
+- [Burst](https://mojs.github.io/tutorials/burst/)
+- Path Easing (coming soon) [API/easing/path-easing](/api/easing/path-easing.md)
 - [Video with MojsPlayer and MojsCurveEditor](https://vimeo.com/185587462)
 - [Icon Animations Powered by mo.js](https://tympanus.net/codrops/2016/02/23/icon-animations-powered-by-mo-js/)
 - [An Introduction to mo.js, by Sarah Drasner](https://css-tricks.com/introduction-mo-js/)
@@ -43,14 +43,18 @@ The library provides **built-in components** to start animating from scratch lik
 - [Reference](/api)
 
 ## Tools
-- [Player](https://github.com/mojs-contrib/mojs-player)
-- [Curve editor](https://github.com/mojs-contrib/mojs-curve-editor)
-- [Timeline editor](https://github.com/mojs-contrib/mojs-timeline-editor)
+- [Player](https://github.com/mojs/mojs-player)
+- [Curve editor](https://github.com/mojs/mojs-curve-editor)
+- [Timeline editor](https://github.com/mojs/mojs-timeline-editor)
 
 ## Installation
-npm: `npm install mo-js`  
-cdn: `<script src="https://cdn.jsdelivr.net/npm/mo-js@latest/build/mo.min.js"></script>`  
-bower: `bower install mojs`
+```console
+# cdn
+<script src="https://cdn.jsdelivr.net/npm/@mojs/core"></script>
+
+# npm
+npm i @mojs/core
+```
 
 ## Target browsers
 - Chrome 4+
